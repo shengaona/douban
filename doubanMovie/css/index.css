@@ -1,0 +1,403 @@
+
+			.navbar{
+				margin-bottom: 0 !important;
+				
+			}
+			#content{
+				margin: 0 auto;
+			}
+			.search_outer{
+				width: 100%;
+				height: 115px;
+				background: #f0f3f5;
+				overflow: hidden;
+			}
+			.search_grounp{
+				width: 600px;
+				height: 35px;
+				display: flex;
+				flex-flow: row;
+				margin: 30px auto;
+			}
+			.log{
+				width: 150px;
+				line-height: 35px;
+				color: #27a;
+				font-family: Helvetica, Arial, sans-serif;
+				cursor: pointer;
+				font-size: 25px;
+			}
+			.search_box{
+				width: 450px;
+				height: 35px;
+				display: block;
+				position: relative;
+				border-radius: 5px;	
+				box-shadow: 2px 2px 3px #777777;
+			}
+			.search_box input{
+				float: left;
+				width: 415px;
+				height: 100%;
+				outline: none;
+				border: none;
+				box-shadow: none;
+				border-radius: 5px;
+				
+			}
+			.search_box button{
+				float: right;
+				width: 35px;
+				height: 34.5px;
+				position: absolute;
+				top: 0;
+				right: 0px;
+				text-align: center;
+				line-height: 33px;
+				font-size: 18px;
+				background: #737373;
+				color: #fff;
+				border-top-right-radius: 5px;
+				border-bottom-right-radius: 5px;
+				border: none;
+				outline: none;
+			}
+			#carousel-example-generic{
+				width: 80% !important;
+				height: 650px !important;
+				margin: 0 auto;
+				margin-bottom: 25px;
+			}
+			.item{
+				width: 100% !important;
+				height: 650px !important;
+			}
+			.item img{
+				width: 100%;
+				height: 650px !important;
+			}
+			
+			#container{
+				max-width: 1040px;
+				margin: 0 auto;
+				display: flex;
+				justify-content: space-between;
+			}
+			.left_container{
+				width: 65%;
+			}
+			/*正在上映*/
+			.movie_show{
+				width: 100%;
+			}
+			.movie_show img{
+				width: 100%;
+				height: 110px;
+				margin-bottom: 15px;
+			}
+			.city{
+				font-size: 28px;
+				letter-spacing: 1px;
+				padding: 48px 0 15px 0;
+			}	
+			
+			.show_title{
+				width: 100%;
+			}
+			.show_title span{
+				width: 100%;
+				height: 100%;
+				color: #072;
+				font: 18px Arial, Helvetica, sans-serif;
+				line-height: 42px;
+				font-weight: 500;
+			}
+			hr{
+				margin: 0;
+				padding: 0;
+			}
+			.show_movie_public{
+				width: 100%;
+				display: flex;
+				flex-flow: row;
+				flex-wrap: wrap;
+			}
+			.movie_outer{
+				height: 100%;
+				width: 17%;
+				margin: 15px 3% 15px 0;
+			}
+			.movie_outer .movie_pic{
+				width: 100%;
+				height: 160px;
+				
+			}
+			.movie_pic img{
+				width: 100%;
+				height: 100%;
+				cursor: pointer;
+			}
+			.movie_outer .movie_name{
+				width: 100%;
+				height: 24px;
+				text-align: center;
+				margin-top: 4px;
+				overflow: hidden;
+			}
+			.movie_outer .movie_grade{
+				width: 100%;
+				height: 20px;
+				text-align: center;
+				margin: 2px 0;
+				color: #37a;
+			}
+			.movie_grade span{
+				color: #e09015;
+			}
+			.movie_outer button{
+				width: 80%;
+				height: 24px;
+				margin: 3px 10% 3px 10%;
+				border: 1px solid #d9d9d9;
+				background: #F5F5F5;
+				border-radius:3px;
+				
+			}
+			.moreMovie{
+				width: 100%;
+				height: 35px;
+				background: #f5f5f5;
+				line-height: 35px;
+				text-align: center;
+				font-size: 14px;
+				margin: 15px 0;
+				color: #336699;
+				cursor: pointer;
+			}
+			/*即将上映*/
+			.movie_soon{
+				width: 100%;
+			}
+			.total{
+				margin-left: 20px;
+				font-size: 15px !important;
+				color: #666699 !important;
+			}
+			.total:hover{
+				background:#37a;
+				color: #FFFFFF!important;
+				cursor: pointer;
+			}
+			.movie_time{
+				width: 100%;
+				height: 20px;
+				text-align: center;
+				margin: 2px 0;
+				color: #aaa;
+			}
+			.movie_tips{
+				width: 100%;
+			}
+			.show_movie_public_img{
+				background:  #f4f4f4;
+			}
+			.buy_tips{
+				width: 590px;
+			}
+			.right_container{
+				width:30%;
+			}
+			.movie_news{
+				width: 100%;
+				background: #fff;
+				margin-top: 115px;
+			}
+			.movie_news p{
+				font-size: 15px;
+    			font-weight: normal;
+			}
+			.movie_news_outer{
+				list-style: none;
+				padding: 0!important;
+				margin: 0!important;
+			}
+			.movie_news_child:first-child{
+				
+				width: 100%;
+				height: 90px;
+				border-bottom: 1px solid #EEE;
+				display: block;
+				position: relative;
+				
+				
+			}
+			.movie_news_child .news_img{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 120px;
+				height: 80px;
+			}
+			.movie_news_child .news_img img{
+				width: 100%;
+				height: 100%;
+			}
+			.movie_news_child .news_title{
+				position: absolute;
+				top: 0;
+				left: 130px;
+				width: 160px;
+				color: #666699;
+				cursor: pointer;
+			}
+			.movie_news_child .news_title:hover{
+				color: #fff;
+				background: #37a;
+			}
+			.movie_news_child .news_club{
+				position: absolute;
+				top: 50px;
+				left: 130px;
+				width: 160px;
+				color: #AAAAAA;
+			}
+			.movie_news_child_other{
+				width: 100%;
+				padding: 10px 0;
+				border-bottom: 1px solid #EEE;
+				color: #666699;
+				cursor: pointer;
+			}
+			.movie_news_child_other p{
+				margin: 0!important;
+			}
+			.movie_news_child_other p:hover{
+				color: #fff;
+				background: #37a;
+			}
+			.movie_tops{
+				width: 100%;
+				background: #fff;
+				margin-top: 115px;
+			}
+			.movie_tops p{
+				font-size: 15px;
+    			font-weight: normal;
+			}
+			.movie_tops_tips{
+				width: 100%;
+				display:flex;
+				justify-content: space-between;
+			}
+			.movie_tops_tips p:first-child{
+				font-size: 18px;
+			}
+			.movie_tops_tips p:last-child{
+				font-size: 13px;
+				padding: 0;
+				margin: 0;
+				line-height: 35px;
+			}
+			.movie_tops_btn{
+				background: #fff;
+				color: #00a1e9;
+				border: none;
+				border-radius: 5px;
+				outline: none;
+				padding: 5px 10px;
+				margin: 3px 5px;
+				cursor: pointer;
+			}
+			.movie_tops_btned{
+				background: #00a1e9;
+				color: #fff;
+				border: none;
+				border-radius: 5px;
+				outline: none;
+				padding: 5px 10px;
+				margin: 3px 5px 3px 0;
+				cursor: pointer;
+			}
+			.movie_tops_menu{
+				padding-left: 0;
+			}
+			.movie_tops_menu li{
+				list-style: none;
+				padding: 10px 0;
+				border-bottom: 1px solid #EEE;
+			
+			}
+			.movie_tops_menu li:first-child{
+				margin-top: 15px;
+				border-top: 1px solid #EEE;
+			}
+    		.movie_tops_menu li p{
+    			margin-bottom: 0;
+			    color: #33749e;
+			    font-size: 13px;
+			    margin-left: 0;
+    		}
+    		.movie_top_num{
+    			color: #aaa;
+			    margin-right: 12px;
+			    margin-left: 8px;
+			    font-weight: normal;
+    		}
+    		.movie_top_title{
+			    color: #33749e;
+			    font-size: 13px;
+			    margin-left: 0;
+    		}
+    		.movie_top_title:hover{
+    			color: white;
+    			background: #33749e;
+    		}
+    		.movie_top_pf{
+    			float: right;
+    			color: #aaa;
+    		}
+    		.movie_top_average{
+    			margin-left:20px;
+    			color: #e09015;
+    			display: none;
+    		}
+    		.movie_top_count{
+    			display: none;
+    		}
+    		.movie_top_pf2{
+    			color: #aaa;
+    			margin-left: 20px;
+    			display: none;
+    		}
+    		.movie_tops_menu li:hover{
+    			background: #f5f5f5;
+    		}
+    		.movie_tops_menu li:hover .movie_top_average{
+    			display: inline;
+    		}
+    		.movie_tops_menu li:hover .movie_top_pf{
+    			display: none;
+    		}
+    		.movie_tops_menu li:hover .movie_top_count{
+    			display: inline;
+    		}
+    		.movie_tops_menu li:hover .movie_top_pf2{
+    			display: inline;
+    		}
+    		.movie_tops_menu li:hover .movie_top_btn{
+    			display: inline;
+    		}
+    		.movie_top_btn{
+    			padding: 3px 5px;
+    			border: 1px solid #d9d9d9;
+    			border-radius: 3px;
+    			float: right;
+    			display: none;
+    			margin-right: 20px;
+    			font-size: 12px;
+    			background:#F3F3F3;
+    		}
+    		.movie_top_btn:hover{
+    			background:#F7F7F7;
+    		}
+    
