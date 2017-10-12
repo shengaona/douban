@@ -400,4 +400,82 @@
     		.movie_top_btn:hover{
     			background:#F7F7F7;
     		}
+  		@media screen and (max-width: 1024px) {
+			    .search_grounp {
+				    width: 300px;
+				    height: 35px;
+				    display: flex;
+				    flex-flow: row;
+				    margin: 30px auto;
+				}
+				.log {
+				    width: 80px;
+				    line-height: 35px;
+				    color: #27a;
+				    font-family: Helvetica, Arial, sans-serif;
+				    cursor: pointer;
+				    font-size: 16px;
+				}
+				.search_box {
+				    width: 220px;
+				    height: 35px;
+				    display: block;
+				    position: relative;
+				    border-radius: 5px;
+				    box-shadow: 2px 2px 3px #777777;
+				}
+				.search_box input {
+				    float: left;
+				    width: 185px;
+				    height: 100%;
+				    outline: none;
+				    border: none;
+				    box-shadow: none;
+				    border-radius: 5px;
+				}
+				.search_box button {
+				    float: right;
+				    width: 35px;
+				    height: 34.5px;
+				    position: absolute;
+				    top: 0;
+				    right: 0px;
+				    text-align: center;
+				    line-height: 33px;
+				    font-size: 18px;
+				    background: #737373;
+				    color: #fff;
+				    border-top-right-radius: 5px;
+				    border-bottom-right-radius: 5px;
+				    border: none;
+				    outline: none;
+				}
+				#container {
+				    width: 90%;
+				    margin: 0 auto;
+				    display: flex;
+				    flex-flow:column ;
+				}
+				.left_container {
+				    width: 100%;
+				}
+				.right_container {
+				    width: 100%;
+				}
+				.city {
+				    font-size: 20px;
+				    letter-spacing: 1px;
+				    padding: 30px 0 15px 0;
+				}
+				.movie_outer {
+				    height: 100%;
+				    width: 24%;
+				    margin: 15px 1% 15px 0;
+				}
+				.buy_tips {
+				    width: 100%;
+				    
+				}
+			}
+
     
