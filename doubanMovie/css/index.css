@@ -330,121 +330,121 @@
 			.movie_tops_menu li:first-child{
 				margin-top: 15px;
 				border-top: 1px solid #EEE;
+				}
+			.movie_tops_menu li p{
+				margin-bottom: 0;
+				    color: #33749e;
+				    font-size: 13px;
+				    margin-left: 0;
 			}
-    		.movie_tops_menu li p{
-    			margin-bottom: 0;
-			    color: #33749e;
-			    font-size: 13px;
-			    margin-left: 0;
-    		}
-    		.movie_top_num{
-    			color: #aaa;
-			    margin-right: 12px;
-			    margin-left: 8px;
-			    font-weight: normal;
-    		}
-    		.movie_top_title{
-			    color: #33749e;
-			    font-size: 13px;
-			    margin-left: 0;
-    		}
-    		.movie_top_title:hover{
-    			color: white;
-    			background: #33749e;
-    		}
-    		.movie_top_pf{
-    			float: right;
-    			color: #aaa;
-    		}
-    		.movie_top_average{
-    			margin-left:20px;
-    			color: #e09015;
-    			display: none;
-    		}
-    		.movie_top_count{
-    			display: none;
-    		}
-    		.movie_top_pf2{
-    			color: #aaa;
-    			margin-left: 20px;
-    			display: none;
-    		}
-    		.movie_tops_menu li:hover{
-    			background: #f5f5f5;
-    		}
-    		.movie_tops_menu li:hover .movie_top_average{
-    			display: inline;
-    		}
-    		.movie_tops_menu li:hover .movie_top_pf{
-    			display: none;
-    		}
-    		.movie_tops_menu li:hover .movie_top_count{
-    			display: inline;
-    		}
-    		.movie_tops_menu li:hover .movie_top_pf2{
-    			display: inline;
-    		}
-    		.movie_tops_menu li:hover .movie_top_btn{
-    			display: inline;
-    		}
-    		.movie_top_btn{
-    			padding: 3px 5px;
-    			border: 1px solid #d9d9d9;
-    			border-radius: 3px;
-    			float: right;
-    			display: none;
-    			margin-right: 20px;
-    			font-size: 12px;
-    			background:#F3F3F3;
-    		}
-    		.movie_top_btn:hover{
-    			background:#F7F7F7;
-    		}
-    		.spinner {
-		  margin: 100px auto 0;
-		  width: 150px;
-		  text-align: center;
-		}
+			.movie_top_num{
+				color: #aaa;
+				    margin-right: 12px;
+				    margin-left: 8px;
+				    font-weight: normal;
+			}
+			.movie_top_title{
+				    color: #33749e;
+				    font-size: 13px;
+				    margin-left: 0;
+			}
+			.movie_top_title:hover{
+				color: white;
+				background: #33749e;
+			}
+			.movie_top_pf{
+				float: right;
+				color: #aaa;
+			}
+			.movie_top_average{
+				margin-left:20px;
+				color: #e09015;
+				display: none;
+			}
+			.movie_top_count{
+				display: none;
+			}
+			.movie_top_pf2{
+				color: #aaa;
+				margin-left: 20px;
+				display: none;
+			}
+			.movie_tops_menu li:hover{
+				background: #f5f5f5;
+			}
+			.movie_tops_menu li:hover .movie_top_average{
+				display: inline;
+			}
+			.movie_tops_menu li:hover .movie_top_pf{
+				display: none;
+			}
+			.movie_tops_menu li:hover .movie_top_count{
+				display: inline;
+			}
+			.movie_tops_menu li:hover .movie_top_pf2{
+				display: inline;
+			}
+			.movie_tops_menu li:hover .movie_top_btn{
+				display: inline;
+			}
+			.movie_top_btn{
+				padding: 3px 5px;
+				border: 1px solid #d9d9d9;
+				border-radius: 3px;
+				float: right;
+				display: none;
+				margin-right: 20px;
+				font-size: 12px;
+				background:#F3F3F3;
+			}
+			.movie_top_btn:hover{
+				background:#F7F7F7;
+			}
+			.spinner {
+			  margin: 50px auto 50px;
+			  width: 150px;
+			  text-align: center;
+			}
 
-		.spinner > div {
-		  width: 30px;
-		  height: 30px;
-		  background-color: #67CF22;
+			.spinner > div {
+			  width: 30px;
+			  height: 30px;
+			  background-color: #67CF22;
 
-		  border-radius: 100%;
-		  display: inline-block;
-		  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
-		  animation: bouncedelay 1.4s infinite ease-in-out;
-		  /* Prevent first frame from flickering when animation starts */
-		  -webkit-animation-fill-mode: both;
-		  animation-fill-mode: both;
-		}
+			  border-radius: 100%;
+			  display: inline-block;
+			  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+			  animation: bouncedelay 1.4s infinite ease-in-out;
+			  /* Prevent first frame from flickering when animation starts */
+			  -webkit-animation-fill-mode: both;
+			  animation-fill-mode: both;
+			}
 
-		.spinner .bounce1 {
-		  -webkit-animation-delay: -0.32s;
-		  animation-delay: -0.32s;
-		}
+			.spinner .bounce1 {
+			  -webkit-animation-delay: -0.32s;
+			  animation-delay: -0.32s;
+			}
 
-		.spinner .bounce2 {
-		  -webkit-animation-delay: -0.16s;
-		  animation-delay: -0.16s;
-		}
+			.spinner .bounce2 {
+			  -webkit-animation-delay: -0.16s;
+			  animation-delay: -0.16s;
+			}
 
-		@-webkit-keyframes bouncedelay {
-		  0%, 80%, 100% { -webkit-transform: scale(0.0) }
-		  40% { -webkit-transform: scale(1.0) }
-		}
+			@-webkit-keyframes bouncedelay {
+			  0%, 80%, 100% { -webkit-transform: scale(0.0) }
+			  40% { -webkit-transform: scale(1.0) }
+			}
 
-		@keyframes bouncedelay {
-		  0%, 80%, 100% {
-		    transform: scale(0.0);
-		    -webkit-transform: scale(0.0);
-		  } 40% {
-		    transform: scale(1.0);
-		    -webkit-transform: scale(1.0);
-		  }
-		}
-    		@media screen and (max-width: 1024px) {
+			@keyframes bouncedelay {
+			  0%, 80%, 100% {
+			    transform: scale(0.0);
+			    -webkit-transform: scale(0.0);
+			  } 40% {
+			    transform: scale(1.0);
+			    -webkit-transform: scale(1.0);
+			  }
+			}
+    			@media screen and (max-width: 1024px) {
 			    .search_grounp {
 				    width: 300px;
 				    height: 35px;
